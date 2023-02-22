@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/82fac282cd.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-------------------------------HEADER SECTION------------------------------------->
@@ -48,9 +49,30 @@
           </p>
         </div>
         <div class="about-skills">
-          <h3 class="about-skills_h3">Skills</h3>
-          <h3 class="about-skills_h3">Experience</h3>
-          <h3 class="about-skills_h3">Education</h3>
+          <article>
+            <h3 class="about-skills_h3">Skills</h3>
+            <ul class="about-skills_h3">
+              <li type="none">Web Development</li>
+              <li type="none">Network Engineer</li>
+              <li type="none"><br></li>
+            </ul>
+          </article>
+          <article>
+            <h3 class="about-skills_h3">Experience</h3>
+            <ul class="about-skills_h3">
+              <li type="none">Process Engineer - 2017 ~ 2018</li>
+              <li type="none">Production Planner - 2018 ~ Present</li>
+              <li type="none"> <br></li>
+            </ul>
+          </article>
+          <article>
+            <h3 class="about-skills_h3">Education</h3>
+            <ul class="about-skills_h3">
+              <li type="none">B.S. Computer Engineering</li>
+              <li type="none">KodeGo Bootcamp - Full-Stack Web Development</li>
+              <li type="none"></li>
+            </ul>
+          </article>
         </div>
       </div>
     </section>
@@ -61,13 +83,28 @@
         <h2>MY PORTFOLIO</h2>
         <div class="portfolio_container">
           <div class="portfolio_img">
-            <img src="css/20220605_124019.jpg" alt="BITS" />
+            <img
+              src="css/20220605_124019.jpg"
+              alt="BITS"
+              width="500px"
+              height="500px"
+            />
           </div>
           <div class="portfolio_img">
-            <img src="css/20220702_133711.jpg" alt="dog-photo-blog" />
+            <img
+              src="css/20220702_133711.jpg"
+              alt="dog-photo-blog"
+              width="500px"
+              height="500px"
+            />
           </div>
           <div class="portfolio_img">
-            <img src="css/20220604_173339.jpg" alt="Registration Form" />
+            <img
+              src="css/20220604_173339.jpg"
+              alt="Registration Form"
+              width="500px"
+              height="500px"
+            />
           </div>
         </div>
         <a href="#" class="portfolio_btn">See More</a>
@@ -79,21 +116,31 @@
         <div class="contact_container">
           <div class="contact_row">
             <div class="contact_left">
-              <div class="contact_icons">
-                
+              <h2>Contact Me</h2>
+              <p><i class="fa-sharp fa-solid fa-envelope-circle-check"> bautista.karlo02@gmail.com</i></p>
+              <p><i class="fa-solid fa-phone"> 09922684841</i></p>
+              <div class="contact_left-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
               </div>
+              <a href="Bautista^J Karlo Joshua M._02.21.23.pdf" download class="contact_btn contact_btn--1">Download CV</a>
             </div>
             <div class="contact_right">
               <form action="">
-                <input type="text" />
-                <input type="text" />
-                <textarea name="" id="" cols="30" rows="10"> </textarea>
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="Your E-mail" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
               </form>
+              <button type="submit" class="contact_btn contact_btn--2">Submit</button>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!---------------------------------FOOTER SECTION------------------------------------------>
+  <footer>
+    <p>Copyright 2023 &copy; Karlo Bautista</p>
+  </footer>
+  
   </body>
 </html>
