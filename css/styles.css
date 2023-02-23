@@ -3,9 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/****************GLOBAL STYLES****************************/
 body {
   font-family: "Poppins", sans-serif;
 }
+
+/*********************HERO SECTION**************************/
+
 .header {
   height: 100vh;
   background-image: linear-gradient(
@@ -16,6 +21,15 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.header_image{
+  display: none;
+}
+
+.header-text--2{
+  display: none;
+}
+
 .header-brand {
   color: white;
   text-decoration: none;
@@ -240,7 +254,7 @@ form input, form textarea{
   display: inline-block;
   background-color: green;
 }
-
+/*****************FOOTER SECTION*********************************/
 footer{
   height: 15vh;
   width: 100%;
@@ -249,3 +263,91 @@ footer{
   background-color: rgb(66, 26, 26);
   font-weight: 300;
 }
+ /******************************MEDIA QUERIES********************************/
+
+
+/*-----------HERO SECTION-------------*/
+@media only screen and (max-width:600px){
+
+  .header {
+   background-image: none;
+   background-color: black;
+  }
+
+  .header_image{
+    display: block;
+  }
+
+  .header_image img{
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .header-text {
+   display: none;
+  }
+
+  .header-text--2{
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+
+  .header-text--2 h2{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.8;
+  }
+
+  .header-text--2 span{
+    color: rgb(216, 24, 24) ;
+  }
+  /* .header-brand {
+   
+  }
+  .header-brand_span {
+   
+  }
+  nav {
+   
+  }
+  nav ul li {
+   
+  }
+  nav ul li a {
+ 
+  }
+ 
+  
+  .header-text h1 {
+   
+  } */
+}
+
+
+/*-----------ABOUT SECTION-------------*/
+
+/* @media only screen and (max-width:600){
+  
+} */
+
+/*-----------PORTFOLIO SECTION-------------*/
+
+/* @media only screen and (max-width:600){
+  
+} */
+
+/*-----------FOOTER SECTION-------------*/
+
+/* @media only screen and (max-width:600){
+  
+} */
