@@ -44,9 +44,11 @@ body {
 nav {
   background-color: rgba(0, 0, 0, 0.349);
   display: flex;
+  position: fixed;
   align-items: center;
   justify-content: space-between;
   padding: 0 1%;
+  width: 100%;
 }
 nav ul li {
   display: inline-block;
@@ -199,7 +201,7 @@ padding: .5% 1%;
   font-size: 30px;
   margin-right: 15px;
   display: inline-block;
-  color: blue;
+  color: #FFDB89;
 }
 
 .contact_left-icons a:hover{
