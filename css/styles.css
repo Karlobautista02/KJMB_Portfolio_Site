@@ -178,6 +178,7 @@ padding: .5% 1%;
 
 .contact_left{
   flex-basis: 35%;
+  color: #FFDB89;
 }
 
 .contact_left p i{
